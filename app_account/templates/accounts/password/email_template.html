@@ -1,0 +1,3 @@
+{% autoescape off %}
+for activate account click<a id="password_reset_link" href="https://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}">here</a>.
+{% endautoescape %}
